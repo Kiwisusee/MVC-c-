@@ -1,0 +1,23 @@
+package Bookpack;
+class Book{
+   private String title;
+   private String author;
+   private int pubDate;
+ Book(String t,String a,int d) {
+   title=t;
+   author=a;
+   pubDate=d;
+}
+void show() {
+  System.out.println(title);
+  System.out.printtln(author);
+  System.out.println(pubDate);
+  System.out.println();
+   }
+}
+class BookDemo {
+ public static void main(String args[]) {
+Book books()=new Book()
+ Book[0]=new Book("java :A Beginners guide:"schildt",2005);
+Book[1]=new Book("java:The complete reference","schildt",2006);
+Book[2]=new Book("The art of java","schildt and Holman",2003);
